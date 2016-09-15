@@ -1,0 +1,9 @@
+.wrapper {
+  display: flex;
+  box-sizing: border-box;
+  border: 2px solid aquamarine;
+  min-height: 400px;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+}
