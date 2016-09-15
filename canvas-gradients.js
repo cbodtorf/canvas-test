@@ -1,4 +1,4 @@
-window.onload = function () {
+window.addEventListener('load', function() {
   var c = document.getElementById("canvas-four"),
       ctx = c.getContext("2d");
 
@@ -26,4 +26,4 @@ window.onload = function () {
   ctx.arc(300,300,50,0, Math.PI * 2, false);
   ctx.fill();;
 
-}
+})

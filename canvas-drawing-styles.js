@@ -1,4 +1,4 @@
-window.onload = function() {
+window.addEventListener('load', function() {
   var c = document.getElementById("canvas-three"),
       ctx = c.getContext("2d");
 
@@ -54,4 +54,4 @@ window.onload = function() {
     ctx.stroke();
   }
 
-}
+})

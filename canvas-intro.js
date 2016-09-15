@@ -1,4 +1,4 @@
-window.onload = function() {
+window.addEventListener('load', function() {
 
   var superRect = document.getElementById('canvas-one'),
       ctx = superRect.getContext('2d');
@@ -8,7 +8,7 @@ window.onload = function() {
   ctx.lineTo(300,100);
   ctx.lineTo(300,200);
   ctx.lineTo(100,200);
-  // ctx.lineTo(100,100);   *** or closePath)() *** or fill()
+  // ctx.lineTo(100,100);   *** or closePath() *** or fill()
 
   ctx.closePath();
   ctx.stroke();
@@ -26,7 +26,7 @@ window.onload = function() {
   // ctx.strokeRect(100,100,100,300);
   // ctx.fillRect(100,100,100,300);
 
-}
+});
 
 
 /*****************************

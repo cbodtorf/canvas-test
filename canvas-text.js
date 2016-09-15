@@ -1,4 +1,4 @@
-window.onload = function () {
+window.addEventListener('load', function() {
   var c = document.getElementById("canvas-five"),
       ctx = c.getContext("2d");
 
@@ -40,4 +40,4 @@ window.onload = function () {
     width = textMetrics.width;
 
     ctx.strokeRect(60, 450, width, -50);
-}
+})

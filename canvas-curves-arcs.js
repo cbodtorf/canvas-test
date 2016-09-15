@@ -1,4 +1,4 @@
-window.onload = function() {
+window.addEventListener('load', function() {
   var c = document.getElementById("canvas-two"),
       ctx = c.getContext("2d")
 
@@ -93,4 +93,4 @@ window.onload = function() {
   // ctx.stroke()
 
 
-}
+})
