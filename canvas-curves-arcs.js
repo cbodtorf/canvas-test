@@ -75,7 +75,7 @@ window.onload = function() {
   /*******************
   * ctx.arc(x, y, radius, startAngle, endAngle)
   * radian = ~57deg
-  * 360deg = 2pi radians
+  * 360deg = (Math.PI * 2) radians
   *******************/
 
   /******************
