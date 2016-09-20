@@ -27,7 +27,7 @@ window.addEventListener('load', function() {
 
 
   /************************
-  * Keyboard Events
+  * Circle Keyboard Events
   *************************/
   document.body.addEventListener("keydown", function(e){
     switch(e.keyCode){
@@ -43,7 +43,7 @@ window.addEventListener('load', function() {
   })
 
   function move() {
-    ctx.clearRect(0,300, c.width, 200)
+    ctx.clearRect(0,350, c.width, 200)
     ctx.beginPath()
     ctx.arc(x,y,20,0,Math.PI*2)
     ctx.fill()
